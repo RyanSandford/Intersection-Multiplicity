@@ -2,7 +2,7 @@
 This Project was used to get familiar with the Maple programming Language and learn the intricacies of intersection
 multiplicity in the bi-variate case.
 
-__Note:__ .mw files will not be properly displayed on github, it is recommended to download and open them elsewhere
+__Note:__ .mw files will not be properly displayed on github, it is recommended to download and open them elsewhere.
 
 __Multiplicity.mw__ implements Fulton's Algorithm to compute the intersection multiplicity for bivariate polynomials
 in an algebraically closed field, where the gcd of the input polynomials has degree 1.
@@ -23,9 +23,9 @@ __(2-7)__ I(p; f , g) = I(p; f , g + hf ) for all h ∈ k[x, y].
 
 __Multiplicity_Single.mw__ can be used with the above implementation of Fulton's Algorithm to extend to the case 
 where one of the input polynomials is zero. In this case the intersection multiplicity is defined to be m+1 where
-the m is such that the mth partial derivative is the smallest order which evaluates to a non-zero number on p=(a,b)
+the m is such that the mth partial derivative is the smallest order which evaluates to a non-zero number on p=(a,b).
 
 __Multiplicity_Single.mw__ can also work on polynomials in K[x] by pasing [x, 0] into the arguement vars.
 Similarly it will work for univariate polynomials in K[y] by passing [0, y] into the arguement vars.
 Lastly to ensure compatiability with the above implementation of Fulton's Algorithm the input polynomial
-f must still be defined on both x and y, hence f: (x,y) -> K
+f must still be defined on both x and y, hence f: (x,y) -> K.
