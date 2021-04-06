@@ -1,6 +1,6 @@
 # Intersection-Multiplicity
 This Project was used to get familiar with the Maple programming Language and learn the intricacies of intersection
-multiplicity in the bi-variate case.
+multiplicity in the bivariate case.
 
 __Note:__ .mw files will not be properly displayed on github, it is recommended to download and open them elsewhere.
 
